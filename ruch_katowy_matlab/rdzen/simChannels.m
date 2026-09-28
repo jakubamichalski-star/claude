@@ -1,0 +1,6 @@
+function c = simChannels()
+%SIMCHANNELS Nazwy zapisywanych przebiegów 6DOF (kolumny macierzy zapisu w simulate, pola R.ch).
+c = {'t', 'X1', 'X2', 'X3', 'U1', 'U2', 'U3', 'u', 'V', 'M', 'rho', 'a', 'p', 'q', 'r', 'psi', 'theta', 'phi', 's', ...
+  'Vx', 'Vy', 'Vz', 'alpha', 'alphaY', 'beta', 'alphaTot', 'phiA', 'W1', 'W2', 'W3', 'dW0dt1', 'dW0dt2', 'dW0dt3', ...
+  'gustF', 'piece', 'dxiRe', 'dxiIm', 'ev', 'reinit', 'clamp', 'Tair'};
+end
